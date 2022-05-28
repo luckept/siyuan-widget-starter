@@ -19,7 +19,6 @@ service.interceptors.response.use((res) => {
 })
 
 function request(options: apiOptions) {
-  console.log('0', options)
   options.method = options.method ?? 'post'
   if (options.method.toLowerCase() === 'get') {
     options.params = options.data
