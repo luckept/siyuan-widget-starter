@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/node': ^17.0.36
   '@vitejs/plugin-vue': ^2.3.3
   axios: ^0.27.2
   element-plus: ^2.2.2
@@ -13,6 +14,7 @@ specifiers:
   vue-tsc: ^0.34.7
 
 dependencies:
+  '@types/node': 17.0.36
   axios: 0.27.2
   element-plus: 2.2.2_vue@3.2.36
   pinia: 2.0.14_qhv4oyzxhhzeba5rd2zztmcg2y
@@ -81,6 +83,10 @@ packages:
 
   /@types/lodash/4.14.182:
     resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
+    dev: false
+
+  /@types/node/17.0.36:
+    resolution: {integrity: sha512-V3orv+ggDsWVHP99K3JlwtH20R7J4IhI1Kksgc+64q5VxgfRkQG8Ws3MFm/FZOKDYGy9feGFlZ70/HpCNe9QaA==}
     dev: false
 
   /@vitejs/plugin-vue/2.3.3_vite@2.9.9+vue@3.2.36:
